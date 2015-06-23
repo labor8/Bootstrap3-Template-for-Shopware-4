@@ -1,0 +1,7 @@
+{
+    "name": "Bootstrap",
+    "author": "Matthias Wellkamp",
+    "license": "New BSD",
+    "esi": true,
+    "emotion": true
+}

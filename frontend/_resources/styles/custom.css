@@ -1,0 +1,13 @@
+body { /* fixed nav */
+	padding-top: 120px;
+}
+
+.frontend_listing_box_article {
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.large {
+	color: #428bca;
+	font-size: 2em;
+}
