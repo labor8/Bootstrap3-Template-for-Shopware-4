@@ -1,1 +1,1 @@
-Hello World!\n
+A basic Bootstrap 3 Shopware Template
