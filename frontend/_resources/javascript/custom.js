@@ -10,6 +10,11 @@ $(document).ready(function () {
 	$('.ctl_detail #tabs .nav a').click(function (e) {
 		e.preventDefault()
 		$(this).tab('show')
-	})
+	});
+	
+	
+	/* bootstrap modal window */
+	
+	$(".modal").removeAttr("style");
 
 });

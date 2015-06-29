@@ -2,7 +2,7 @@
 * @category Shopware 
 * @package Shopware_Template 
 * @subpackage Shopware_Template_Frontend 
-* @copyright Copyright (c) 2014 | Via-Form (http://www.via-form.de) *} 
+* @copyright Copyright (c) 2015 | Via-Form (http://www.via-form.de) *} 
 {block name="frontend_index_start"}{/block} 
 {block name="frontend_index_doctype"}
 <!doctype html>

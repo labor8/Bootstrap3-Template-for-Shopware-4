@@ -3244,10 +3244,7 @@ jQuery.fn.liveSearch = function (conf) {
             modal.find('.inner_container').css('height', settings.height + 'px');
         }
 
-        /* modal.show().css('marginLeft', -(modal.width()/2)).hide(); */
-		/* custom */
-		$( ".modal" ).css("width", "100%");
-		$( ".modal" ).wrapInner( "<div class='modal-dialog'><div class='modal-content'></div></div>");
+        modal.show().css('marginLeft', -(modal.width()/2)).hide();
 
         if (settings.useOverlay == true) {
             $.modal.overlay.fadeIn();
@@ -3309,17 +3306,15 @@ jQuery.fn.liveSearch = function (conf) {
         var modal = $('<div>', {
             'class': 'modal',
             'css': {
-                /*  'width': config.width,
+                'width': config.width,
                 'left': '50%',
                 'border': config.border,
                 'padding': config.padding,
                 'background': config.background,
-                'margin-left': -(parseInt(config.width) / 2) */
-                'margin-left': 0,
-				'display': 'none'
+                'display': 'none',
+                'margin-left': -(parseInt(config.width) / 2)
             }
-		});
-		
+        });
 
         if (headline && headline.length) {
             var h2 = $('<h2>', {
